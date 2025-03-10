@@ -11,7 +11,7 @@
 #include "uart_comm_thread_send.h"
 #include "uart_comm_thread_receive.h"
 
-float Ts = .001;
+float Ts = .0001;
 GPA myGPA (1, 1000, 30, .1,.2, Ts);
 DataLogger myDataLogger(1);
 
